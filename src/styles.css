@@ -1,31 +1,58 @@
 /* Add application styles & imports to this file! */
 @import 'reset.css';
 @import 'flexbox.css';
+@import 'color.css';
 
 /* General styles */
-tr {
+
+.tr-container {
   display: flex;
   justify-content: center;
   margin: 1em auto;
   width: 100%;
+  background-color: #2b4b6f;
+  color: #ffffff;
 }
 
-.tr-container {
+.tr-container-list {
+  display: flex;
+  justify-content: center;
+  margin: 1em auto;
+  width: 100%;
+  background-color: rgba(115, 140, 166, 0.2);
+  border-bottom: 1px solid #041d37;
+  border-top: 1px solid #041d37;
 }
 
-td {
+.td-lista-pedido {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 10%;
   text-align: center;
+  padding: 0.5em;
 }
 
-th {
+.th-lista-pedido {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 10%;
+  padding: 0.5em;
+}
+
+.btn-new-pedido {
+  background-color: #133253;
+  border-radius: 6px;
+  padding: 0.6em;
+  color: #ffefaa;
+  transition: ease all 0.3s;
+}
+
+.btn-new-pedido:hover {
+  background-color: #ffefaa;
+  color: #041d37;
 }
