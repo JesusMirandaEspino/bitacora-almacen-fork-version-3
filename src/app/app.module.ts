@@ -10,7 +10,7 @@ import { PagesModule } from './pages/pages.module';
 import { AtencionclientesComponent } from './atencionclientes/atencionclientes.component';
 import { IngresapedidoComponent } from './ingresapedido/ingresapedido.component';
 import { ListapedidosComponent } from './listapedidos/listapedidos.component';
-import { DetallePedidoComponent } from './detallepedido/detalle-pedido.component';
+import { DetallepedidoComponent } from './detallepedido/detallepedido.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, PagesModule],
@@ -22,7 +22,7 @@ import { DetallePedidoComponent } from './detallepedido/detalle-pedido.component
     AtencionclientesComponent,
     IngresapedidoComponent,
     ListapedidosComponent,
-    DetallePedidoComponent
+    DetallepedidoComponent
   ],
   bootstrap: [AppComponent]
 })
