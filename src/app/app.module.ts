@@ -10,6 +10,7 @@ import { PagesModule } from './pages/pages.module';
 import { AtencionclientesComponent } from './atencionclientes/atencionclientes.component';
 import { IngresapedidoComponent } from './ingresapedido/ingresapedido.component';
 import { ListapedidosComponent } from './listapedidos/listapedidos.component';
+import { DetallePedidoComponent } from './detallepedido/detalle-pedido.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, PagesModule],
@@ -20,7 +21,8 @@ import { ListapedidosComponent } from './listapedidos/listapedidos.component';
     FooterComponent,
     AtencionclientesComponent,
     IngresapedidoComponent,
-    ListapedidosComponent
+    ListapedidosComponent,
+    DetallePedidoComponent
   ],
   bootstrap: [AppComponent]
 })
